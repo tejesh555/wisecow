@@ -4,3 +4,4 @@ COPY ./wisecow.sh .
 ENV PATH "${PATH}:/usr/games"
 EXPOSE 4499
 CMD ["sh", "wisecow.sh"]
+
